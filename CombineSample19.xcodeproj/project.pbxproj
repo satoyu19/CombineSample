@@ -11,6 +11,15 @@
 		7F38062B2884FEB40076EEEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F38062A2884FEB40076EEEF /* ContentView.swift */; };
 		7F38062D2884FEBC0076EEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F38062C2884FEBC0076EEEF /* Assets.xcassets */; };
 		7F3806302884FEBC0076EEEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F38062F2884FEBC0076EEEF /* Preview Assets.xcassets */; };
+		7F38063B2884FFBF0076EEEF /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F38063A2884FFBF0076EEEF /* APIService.swift */; };
+		7F38063D2884FFE90076EEEF /* SearchRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F38063C2884FFE90076EEEF /* SearchRequestType.swift */; };
+		7F38063F288500690076EEEF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F38063E288500690076EEEF /* Repository.swift */; };
+		7F3806412885008F0076EEEF /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3806402885008F0076EEEF /* APIServiceError.swift */; };
+		7F380643288500BF0076EEEF /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F380642288500BF0076EEEF /* SearchView.swift */; };
+		7F380645288500CE0076EEEF /* ShopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F380644288500CE0076EEEF /* ShopsView.swift */; };
+		7F380647288500DC0076EEEF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F380646288500DC0076EEEF /* CardView.swift */; };
+		7F380649288501280076EEEF /* ShopsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F380648288501280076EEEF /* ShopsViewModel.swift */; };
+		7FA6CE94288E54250099FEDF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA6CE93288E54250099FEDF /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		7F38062A2884FEB40076EEEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F38062C2884FEBC0076EEEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F38062F2884FEBC0076EEEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F38063A2884FFBF0076EEEF /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		7F38063C2884FFE90076EEEF /* SearchRequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRequestType.swift; sourceTree = "<group>"; };
+		7F38063E288500690076EEEF /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		7F3806402885008F0076EEEF /* APIServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceError.swift; sourceTree = "<group>"; };
+		7F380642288500BF0076EEEF /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		7F380644288500CE0076EEEF /* ShopsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsView.swift; sourceTree = "<group>"; };
+		7F380646288500DC0076EEEF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7F380648288501280076EEEF /* ShopsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsViewModel.swift; sourceTree = "<group>"; };
+		7FA6CE93288E54250099FEDF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,10 @@
 		7F3806272884FEB40076EEEF /* CombineSample19 */ = {
 			isa = PBXGroup;
 			children = (
+				7F3806392884FFA50076EEEF /* Model */,
+				7F3806382884FF900076EEEF /* View */,
+				7F3806372884FF000076EEEF /* ViewModel */,
+				7F3806362884FEEF0076EEEF /* Error */,
 				7F3806282884FEB40076EEEF /* CombineSample19App.swift */,
 				7F38062A2884FEB40076EEEF /* ContentView.swift */,
 				7F38062C2884FEBC0076EEEF /* Assets.xcassets */,
@@ -65,6 +87,43 @@
 				7F38062F2884FEBC0076EEEF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F3806362884FEEF0076EEEF /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				7F3806402885008F0076EEEF /* APIServiceError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		7F3806372884FF000076EEEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7F380648288501280076EEEF /* ShopsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7F3806382884FF900076EEEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F380642288500BF0076EEEF /* SearchView.swift */,
+				7F380644288500CE0076EEEF /* ShopsView.swift */,
+				7F380646288500DC0076EEEF /* CardView.swift */,
+				7FA6CE93288E54250099FEDF /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F3806392884FFA50076EEEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F38063A2884FFBF0076EEEF /* APIService.swift */,
+				7F38063C2884FFE90076EEEF /* SearchRequestType.swift */,
+				7F38063E288500690076EEEF /* Repository.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +197,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F38062B2884FEB40076EEEF /* ContentView.swift in Sources */,
+				7F380647288500DC0076EEEF /* CardView.swift in Sources */,
+				7F3806412885008F0076EEEF /* APIServiceError.swift in Sources */,
+				7F380645288500CE0076EEEF /* ShopsView.swift in Sources */,
+				7F38063B2884FFBF0076EEEF /* APIService.swift in Sources */,
+				7FA6CE94288E54250099FEDF /* DetailView.swift in Sources */,
+				7F380643288500BF0076EEEF /* SearchView.swift in Sources */,
+				7F380649288501280076EEEF /* ShopsViewModel.swift in Sources */,
+				7F38063F288500690076EEEF /* Repository.swift in Sources */,
 				7F3806292884FEB40076EEEF /* CombineSample19App.swift in Sources */,
+				7F38063D2884FFE90076EEEF /* SearchRequestType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
