@@ -19,7 +19,7 @@ struct SearchRepositoryRequest: APIRequestType{
     
     typealias Response = SearchRepositoryResponse
     
-    private let apiKey = "06b438f9ea3e6be7"
+    private let apiKey = "your key"
 
     private var query: String
     let path = "/hotpepper/gourmet/v1"  //エンドポイント
